@@ -19,7 +19,10 @@ a{
 .header__navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #6998AB;
+    background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 20px;
 }
 
@@ -36,6 +39,7 @@ p{
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 20px;
+    
 
 }
 h1{
@@ -79,11 +83,14 @@ h2{
 
 /*----------------------------------------------------------CODE SKILLS */
 .skills__title{
-    background-color: #203239;
-    margin: 10px 10px;
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 10px 30px;
     padding: 10px;
     text-align: center;
     font-family: 'Inconsolata', monospace;
+
 }
 
 .skills{
@@ -115,3 +122,85 @@ h2{
 }
 
 
+/*-------------------CODE CONTACT */
+.contact__title{
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 50px;
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  /*------------------------------------------CODE FOOTER */
+
+.footer{
+    background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
